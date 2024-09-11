@@ -1,0 +1,35 @@
+<% layout("/layout/boilerplate") %>
+  <link rel="stylesheet" href="/login/login.css">
+  <body>
+    <div class="container">
+      <div class="card">
+        <form method="post" action="/Slogin/new" novalidate class="needs-validation">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address : </label>
+            <input name="student[Email]" required="true" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <div class="valid-feedback">Email Look Good!</div>
+            <div class="invalid-feedback">Email Should always Contain @ </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password : </label>
+            <input name="student[Password]" required="true" minlength="5" maxlength="10" type="password" class="form-control" id="exampleInputPassword1" placeholder="Try a Strong Password">
+            <div class="valid-feedback">Password Look's Good</div>
+            <div  class="invalid-feedback">Enter Strong Password...which Should have more than 5 character and less than 10 Charcter/Number/SpecailCharcter</div>
+          </div>
+          <div class="form-group last">
+            <label for="exampleInputPassword1">Aadhar Card : </label>
+            <input name="student[Aadharcard]" minlength="12" required="true" class="form-control" id="exampleInputPassword1" placeholder="Enter Correct Aadhar Number">
+            <small id="emailHelp" class="form-text text-muted">Please only Enter Numeric Value..Or your form will be rejected.</small>
+            <div class="invalid-feedback">The Aadhar No length is 12 and only contain Numeric Value</div>
+          </div>
+          <div class="button">
+            <button type="submit" class="btn btn-outline-dark">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  </html>

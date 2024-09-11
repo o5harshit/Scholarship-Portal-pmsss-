@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+}
+
+.head {
+  background-color: #2d76ab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem 1rem;
+  margin-right: 0.7rem;
+}
+
+.howapply {
+  height: auto;
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.container {
+  text-align: center;
+  padding-top: 4rem;
+  color: aliceblue;
+}
+
+.container h1 {
+  font-family: "Reddit Sans Condensed", sans-serif;
+  font-weight: 400 !important;
+  font-size: 4rem;
+}
+
+
+.anncoument {
+  height: 50px;
+  border-bottom: 2px solid white;
+}
+
+.dropdown-menu {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .44);
+}
+
+.card-div {
+  display: flex;
+}
+
+/* Custom scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 12px;
+  /* Width of the scrollbar */
+  height: 12px;
+  /* Height of the scrollbar (horizontal scrollbar) */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Track (the part you don't scroll) */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Scrollbar (the part you drag) */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Scrollbar color on hover */
+}
+
+/* Example container */
+.scrollable-content {
+  height: 200px;
+  overflow-y: scroll;
+  /* Enable vertical scrolling */
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.card {
+  background-color: rgba(217, 217, 217, .09);
+  border-radius: 1.25rem;
+  color: white;
+}
+
+.card ul {
+  color: #2d76ab;
+}
+
+.data {
+  padding: 0.5rem;
+  padding-top: 0.7rem;
+  width: 100%;
+}
+

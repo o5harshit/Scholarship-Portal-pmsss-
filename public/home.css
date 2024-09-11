@@ -1,0 +1,43 @@
+*{
+    padding:0px;
+    margin : 0px;
+}
+
+.logo{
+    width:70%;
+}
+
+
+.logo img{
+    width :40%;
+}
+
+.navbar-nav{
+    font-size: 1rem;
+}
+
+.navbar{
+    background-color: white !important;
+    color:white;
+    border-bottom: 2px solid rgb(87, 87, 109) !important;
+}
+
+.nav-link{
+    padding:1rem;
+    margin:1rem;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: Lato-Regular;
+    font-weight: 300;
+    font-style: italic;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    font-weight: 400;
+    color:black;
+}
+
+.container{
+    width: 100vw !important;
+}
+

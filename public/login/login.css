@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* default Styling ?*/
+
+.logo{
+    width:70%;
+}
+
+
+.logo img{
+    width :40%;
+}
+
+.navbar-nav{
+    font-size: 1rem;
+}
+
+.navbar{
+    background-color: white !important;
+    color:white;
+    border-bottom: 2px solid rgb(87, 87, 109) !important;
+}
+
+.nav-link{
+    padding:1rem;
+    margin:1rem;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: Lato-Regular;
+    font-weight: 300;
+    font-style: italic;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    font-weight: 400;
+    color:black;
+}
+
+.container{
+    height:auto;
+    margin-top: 3rem;
+    font-family:"Poppins", sans-serif;;
+}
+
+.card{
+    height: 100%;
+    padding:3rem;
+    border:2px solid black;
+}
+
+.card .form-group{
+    padding: 1rem;
+}
+
+.card .form-group input{
+    border:2px solid black;
+}
+
+
+
+.card .form-check{
+    padding: 1rem;
+}
+
+.last{
+    margin-bottom:  1rem;
+}
+
+.button{
+    padding-left: 1rem;
+}
